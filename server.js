@@ -6,7 +6,7 @@ const session = require('express-session');
 const FileStore = require('session-file-store')(session);
 const passport = require('passport');
 
-app.use(express.static(path.join(__dirname, '/public')));
+1
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(
